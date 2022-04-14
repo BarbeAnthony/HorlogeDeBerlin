@@ -1,0 +1,83 @@
+body {
+    background-color: lightgray;
+}
+
+/* CADRE GENERAL*/
+
+#horlogeDeBerlin{
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 5px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* REGLAGES COLONNES*/
+
+.thin-col {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.large-col {
+    flex-grow: 15;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* REGLAGE LIGNES */
+
+.thin-row {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.large-row {
+    flex-grow: 15;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/*MAIN CLOCK */
+
+.main-clock {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.clock-row {
+    flex-grow: 1;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.led {
+    background-color: yellow;
+    border-radius: 4px;
+    margin:3px;
+    flex-grow: 1;
+}
+
+.quarters {
+    background-color: red;
+}
+
+.sec {
+    background: rgb(46, 228, 0);
+}
